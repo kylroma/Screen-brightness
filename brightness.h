@@ -17,8 +17,6 @@ private:
 public:
     explicit Brightness(QSlider *parent = 0);
 
-signals:
-
 private slots:
     void slotChangeBrightness(int bright);
     void slotShowHide();
